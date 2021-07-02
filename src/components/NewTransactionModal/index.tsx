@@ -64,7 +64,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionProp
     <TransactionTypeContainer>
       <RadioBox 
       type="button" 
-      // className={type === "deposit" ? "active" : ""}
+      // className={type === "deposit" ? "active" : ""} 
       onClick={()=> {setType("deposit")}}
       isActive={type === "deposit"} // vai retornar true se tiver clicado
       activeColor="green"
