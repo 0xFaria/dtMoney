@@ -21,7 +21,7 @@ export function TransationsTable() {
   }, [])
 
   return (
-    <Container>
+    <Container>2
       <table>
         <thead>
           <tr>
